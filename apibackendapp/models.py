@@ -11,7 +11,10 @@ def create_auth_token(sender, instance=None, created =False,**kwargs):
         Token.objects.create(user=instance)
 
 
-#models
+
+
+#models here
+
 
 class Department(models.Model):
     Department_id = models.AutoField(primary_key=True)
